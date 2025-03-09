@@ -1,0 +1,111 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-accent-gold: #c59d5f;
+  --color-midnightblue: #001f38;
+  --color-button:#f5394e;
+  --color-button-hover: #f5394e;
+  --color-digivate: #ff4449;
+  --color-avocado-600: oklch(0.53 0.12 118.34);
+  --ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+  --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+  --font-primary: 'Source Sans Pro', 'SF Pro Text', 'Frutiger Linotype', 'Gill Sans', 'Gill Sans MT', 'Myriad Pro',
+    'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  --font-h1-size: 2.9375rem;
+  --font-h1-lineHeight: 3rem;
+  --font-h1-letterSpacing: 0.1em;
+  --font-h1-weight: 700;
+
+  --font-h2-size: 1.875rem;
+  --font-h2-lineHeight: 2.25rem;
+  --font-h2-letterSpacing: -0.015em;
+  --font-h2-weight: 600;
+
+  --font-h3-size: 1.5rem;
+  --font-h3-lineHeight: 2rem;
+  --font-h3-letterSpacing: -0.01em;
+  --font-h3-weight: 500;
+
+  --font-h4-size: 1.25rem;
+  --font-h4-lineHeight: 1.75rem;
+  --font-h4-letterSpacing: -0.005em;
+  --font-h4-weight: 400;
+
+  --font-h5-size: 1.125rem;
+  --font-h5-lineHeight: 1.5rem;
+  --font-h5-letterSpacing: 0;
+  --font-h5-weight: 500;
+
+  --font-h6-size: 1rem;
+  --font-h6-lineHeight: 1.75rem;
+  --font-h6-letterSpacing: 0;
+  --font-h6-weight: 400;
+
+  --font-p-size: 1rem;
+  --font-p-lineHeight: 1.5rem;
+  --font-p-letterSpacing: 0;
+  --font-p-weight: 300;
+
+  --font-button-size: 1rem;
+  --font-button-lineHeight: 1.5rem;
+  --font-button-letterSpacing: 0;
+  --font-button-weight: 400;
+}
+
+h1 {
+  font-size: var(--font-h1-size);
+  line-height: var(--font-h1-lineHeight);
+  letter-spacing: var(--font-h1-letterSpacing);
+  font-weight: var(--font-h1-weight);
+}
+
+h2 {
+  font-size: var(--font-h2-size);
+  line-height: var(--font-h2-lineHeight);
+  letter-spacing: var(--font-h2-letterSpacing);
+  font-weight: var(--font-h2-weight);
+}
+
+h3 {
+  font-size: var(--font-h3-size);
+  line-height: var(--font-h3-lineHeight);
+  letter-spacing: var(--font-h3-letterSpacing);
+  font-weight: var(--font-h3-weight);
+}
+
+h4 {
+  font-size: var(--font-h4-size);
+  line-height: var(--font-h4-lineHeight);
+  letter-spacing: var(--font-h4-letterSpacing);
+  font-weight: var(--font-h4-weight);
+}
+
+h5 {
+  font-size: var(--font-h5-size);
+  line-height: var(--font-h5-lineHeight);
+  letter-spacing: var(--font-h5-letterSpacing);
+  font-weight: var(--font-h5-weight);
+}
+
+h6 {
+  font-size: var(--font-h6-size);
+  line-height: var(--font-h6-lineHeight);
+  letter-spacing: var(--font-h6-letterSpacing);
+  font-weight: var(--font-h6-weight);
+}
+
+p {
+  font-size: var(--font-p-size);
+  line-height: var(--font-p-lineHeight);
+  letter-spacing: var(--font-p-letterSpacing);
+  font-weight: var(--font-p-weight);
+}
+
+button {
+  font-size: var(--font-button-size);
+  line-height: var(--font-button-lineHeight);
+  letter-spacing: var(--font-button-letterSpacing);
+  font-weight: var(--font-button-weight);
+  /* ... */
+}
